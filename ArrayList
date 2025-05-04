@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class ArrayListExample {
+    public static void main(String[] args) {
+        // Membuat ArrayList untuk menyimpan nama mahasiswa
+        ArrayList<String> students = new ArrayList<>();
+        
+        // Menambahkan elemen ke ArrayList
+        students.add("Alice");
+        students.add("Bob");
+        students.add("Charlie");
+
+        // Menampilkan semua elemen
+        System.out.println("Students List: " + students);
+
+        // Mengakses elemen berdasarkan indeks
+        System.out.println("First student: " + students.get(0));
+
+        // Menghapus elemen
+        students.remove("Bob");
+        System.out.println("After removal: " + students);
+    }
+}
