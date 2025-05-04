@@ -1,0 +1,20 @@
+import java.util.ArrayDeque;
+
+public class ArrayDequeExample {
+    public static void main(String[] args) {
+        // Membuat ArrayDeque sebagai stack
+        ArrayDeque<String> stack = new ArrayDeque<>();
+
+        // Menambahkan elemen ke stack
+        stack.push("First");
+        stack.push("Second");
+        stack.push("Third");
+
+        // Menampilkan elemen teratas
+        System.out.println("Top element: " + stack.peek());
+
+        // Mengeluarkan elemen (pop)
+        System.out.println("Popped: " + stack.pop());
+        System.out.println("Stack after pop: " + stack);
+    }
+}
